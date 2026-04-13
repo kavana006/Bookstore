@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    books.xml - BookVault Online Store
+    CATEGORIES: English Story Books | Motivational & Positive Thinking
+                Engineering Books | Programming & Technology | Children's Books
+-->
+<books>
+
+    <!-- ===== ENGLISH STORY BOOKS ===== -->
+    <book>
+        <id>1</id>
+        <title>The Great Gatsby</title>
+        <author>F. Scott Fitzgerald</author>
+        <price>1079</price>
+        <category>English Story Books</category>
+        <rating>4.5</rating>
+        <image>php/cover.php?id=1</image>
+        <description>A story of wealth, love, and the American Dream in the Roaring Twenties. A timeless classic of American literature.</description>
+    </book>
+    <book>
+        <id>2</id>
+        <title>To Kill a Mockingbird</title>
+        <author>Harper Lee</author>
+        <price>1239</price>
+        <category>English Story Books</category>
+        <rating>5.0</rating>
+        <image>php/cover.php?id=2</image>
+        <description>A powerful novel about racial injustice and the loss of innocence in the American South. A Pulitzer Prize winner.</description>
+    </book>
+    <book>
+        <id>3</id>
+        <title>Pride and Prejudice</title>
+        <author>Jane Austen</author>
+        <price>829</price>
+        <category>English Story Books</category>
+        <rating>4.7</rating>
+        <image>php/cover.php?id=3</image>
+        <description>The witty and romantic story of Elizabeth Bennet and the proud Mr. Darcy. One of the greatest novels in English literature.</description>
+    </book>
+    <book>
+        <id>4</id>
+        <title>1984</title>
+        <author>George Orwell</author>
+        <price>999</price>
+        <category>English Story Books</category>
+        <rating>4.8</rating>
+        <image>php/cover.php?id=4</image>
+        <description>A chilling dystopian novel about totalitarianism, surveillance, and the destruction of truth in a future society.</description>
+    </book>
+    <book>
+        <id>5</id>
+        <title>Short Stories of O. Henry</title>
+        <author>O. Henry</author>
+        <price>749</price>
+        <category>English Story Books</category>
+        <rating>4.6</rating>
+        <image>php/cover.php?id=5</image>
+        <description>A classic collection of short stories with surprising twists. Perfect for readers who love clever, witty narratives.</description>
+    </book>
+
+    <!-- ===== MOTIVATIONAL AND POSITIVE THINKING ===== -->
+    <book>
+        <id>6</id>
+        <title>Atomic Habits</title>
+        <author>James Clear</author>
+        <price>1489</price>
+        <category>Motivational and Positive Thinking</category>
+        <rating>4.9</rating>
+        <image>php/cover.php?id=6</image>
+        <description>Proven strategies to build good habits and break bad ones for lasting change. The #1 self-improvement book of the decade.</description>
+    </book>
+    <book>
+        <id>7</id>
+        <title>The Alchemist</title>
+        <author>Paulo Coelho</author>
+        <price>1119</price>
+        <category>Motivational and Positive Thinking</category>
+        <rating>4.7</rating>
+        <image>php/cover.php?id=7</image>
+        <description>An inspiring journey of a young shepherd pursuing his Personal Legend. A life-changing book read by millions worldwide.</description>
+    </book>
+    <book>
+        <id>8</id>
+        <title>The Power of Your Subconscious Mind</title>
+        <author>Joseph Murphy</author>
+        <price>899</price>
+        <category>Motivational and Positive Thinking</category>
+        <rating>4.5</rating>
+        <image>php/cover.php?id=8</image>
+        <description>Unlock the potential of your subconscious mind to achieve success, health, and happiness in every area of life.</description>
+    </book>
+    <book>
+        <id>9</id>
+        <title>Think and Grow Rich</title>
+        <author>Napoleon Hill</author>
+        <price>799</price>
+        <category>Motivational and Positive Thinking</category>
+        <rating>4.6</rating>
+        <image>php/cover.php?id=9</image>
+        <description>The classic guide to achieving wealth and success through the power of positive thinking and definite purpose.</description>
+    </book>
+    <book>
+        <id>10</id>
+        <title>You Can Win</title>
+        <author>Shiv Khera</author>
+        <price>699</price>
+        <category>Motivational and Positive Thinking</category>
+        <rating>4.4</rating>
+        <image>php/cover.php?id=10</image>
+        <description>A step-by-step tool for top achievers. One of India's most popular motivational books with practical wisdom for success.</description>
+    </book>
+
+    <!-- ===== ENGINEERING BOOKS ===== -->
+    <book>
+        <id>11</id>
+        <title>Engineering Mathematics</title>
+        <author>B.S. Grewal</author>
+        <price>1299</price>
+        <category>Engineering Books</category>
+        <rating>4.8</rating>
+        <image>php/cover.php?id=11</image>
+        <description>The most widely used engineering mathematics textbook in India. Covers all topics for BE/BTech examinations comprehensively.</description>
+    </book>
+    <book>
+        <id>12</id>
+        <title>Data Structures and Algorithms</title>
+        <author>Narasimha Karumanchi</author>
+        <price>1199</price>
+        <category>Engineering Books</category>
+        <rating>4.7</rating>
+        <image>php/cover.php?id=12</image>
+        <description>Master data structures and algorithms with clear explanations and 700+ problems. Essential for CSE students and interviews.</description>
+    </book>
+    <book>
+        <id>13</id>
+        <title>Principles of Electronics</title>
+        <author>V.K. Mehta</author>
+        <price>1149</price>
+        <category>Engineering Books</category>
+        <rating>4.5</rating>
+        <image>php/cover.php?id=13</image>
+        <description>A comprehensive textbook for ECE students covering semiconductors, circuits, amplifiers, and digital electronics.</description>
+    </book>
+    <book>
+        <id>14</id>
+        <title>Strength of Materials</title>
+        <author>R.K. Bansal</author>
+        <price>1099</price>
+        <category>Engineering Books</category>
+        <rating>4.6</rating>
+        <image>php/cover.php?id=14</image>
+        <description>Standard reference for Mechanical and Civil engineering students. Covers stress, strain, beams, and structural analysis.</description>
+    </book>
+    <book>
+        <id>15</id>
+        <title>Computer Organization and Architecture</title>
+        <author>William Stallings</author>
+        <price>1399</price>
+        <category>Engineering Books</category>
+        <rating>4.4</rating>
+        <image>php/cover.php?id=15</image>
+        <description>The definitive guide to computer organization, covering processor design, memory systems, and I/O architecture for CSE.</description>
+    </book>
+
+    <!-- ===== PROGRAMMING AND TECHNOLOGY ===== -->
+    <book>
+        <id>16</id>
+        <title>Python Crash Course</title>
+        <author>Eric Matthes</author>
+        <price>1549</price>
+        <category>Programming and Technology</category>
+        <rating>4.9</rating>
+        <image>php/cover.php?id=16</image>
+        <description>The world's best-selling Python book. Learn Python fast with hands-on projects including web apps, games, and data visualization.</description>
+    </book>
+    <book>
+        <id>17</id>
+        <title>Head First Java</title>
+        <author>Kathy Sierra and Bert Bates</author>
+        <price>1499</price>
+        <category>Programming and Technology</category>
+        <rating>4.7</rating>
+        <image>php/cover.php?id=17</image>
+        <description>The most fun and engaging way to learn Java. Uses visuals, puzzles, and real-world examples to teach OOP concepts clearly.</description>
+    </book>
+    <book>
+        <id>18</id>
+        <title>JavaScript: The Good Parts</title>
+        <author>Douglas Crockford</author>
+        <price>1099</price>
+        <category>Programming and Technology</category>
+        <rating>4.5</rating>
+        <image>php/cover.php?id=18</image>
+        <description>A deep dive into the best features of JavaScript. Essential reading for every web developer building modern applications.</description>
+    </book>
+    <book>
+        <id>19</id>
+        <title>Artificial Intelligence: A Modern Approach</title>
+        <author>Stuart Russell and Peter Norvig</author>
+        <price>2499</price>
+        <category>Programming and Technology</category>
+        <rating>4.8</rating>
+        <image>php/cover.php?id=19</image>
+        <description>The standard AI textbook used worldwide. Covers search, knowledge representation, machine learning, and deep learning fundamentals.</description>
+    </book>
+    <book>
+        <id>20</id>
+        <title>Clean Code</title>
+        <author>Robert C. Martin</author>
+        <price>1799</price>
+        <category>Programming and Technology</category>
+        <rating>4.8</rating>
+        <image>php/cover.php?id=20</image>
+        <description>Learn how to write readable, maintainable, and professional code. A must-read for every software developer and engineer.</description>
+    </book>
+
+    <!-- ===== CHILDREN'S BOOKS ===== -->
+    <book>
+        <id>21</id>
+        <title>Harry Potter and the Sorcerer Stone</title>
+        <author>J.K. Rowling</author>
+        <price>1409</price>
+        <category>Children's Books</category>
+        <rating>5.0</rating>
+        <image>php/cover.php?id=21</image>
+        <description>The magical beginning of the beloved series about a boy who discovers he is a wizard. Perfect for children and adults alike.</description>
+    </book>
+    <book>
+        <id>22</id>
+        <title>The Lion, the Witch and the Wardrobe</title>
+        <author>C.S. Lewis</author>
+        <price>899</price>
+        <category>Children's Books</category>
+        <rating>4.8</rating>
+        <image>php/cover.php?id=22</image>
+        <description>Four children step through a wardrobe into the magical land of Narnia. A timeless fantasy adventure for young readers.</description>
+    </book>
+    <book>
+        <id>23</id>
+        <title>Charlie and the Chocolate Factory</title>
+        <author>Roald Dahl</author>
+        <price>849</price>
+        <category>Children's Books</category>
+        <rating>4.9</rating>
+        <image>php/cover.php?id=23</image>
+        <description>Charlie wins a golden ticket to visit Willy Wonka's incredible chocolate factory. A delightful story loved by children worldwide.</description>
+    </book>
+    <book>
+        <id>24</id>
+        <title>Panchatantra Stories</title>
+        <author>Vishnu Sharma</author>
+        <price>599</price>
+        <category>Children's Books</category>
+        <rating>4.7</rating>
+        <image>php/cover.php?id=24</image>
+        <description>Ancient Indian fables that teach wisdom, friendship, and moral values through animal stories. A treasure for every Indian child.</description>
+    </book>
+    <book>
+        <id>25</id>
+        <title>My First Encyclopedia</title>
+        <author>DK Publishing</author>
+        <price>1299</price>
+        <category>Children's Books</category>
+        <rating>4.6</rating>
+        <image>php/cover.php?id=25</image>
+        <description>A beautifully illustrated learning book for curious young minds. Covers animals, science, space, history, and the human body.</description>
+    </book>
+
+</books>
