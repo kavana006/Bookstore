@@ -1,16 +1,4 @@
 <?php
-/**
- * cover.php — BookVault SVG Cover Generator
- *
- * Generates a beautiful, styled book cover as an SVG image for any book.
- * Called as: <img src="php/cover.php?id=1">
- *
- * Each category gets a unique color theme and icon.
- * The cover shows the book title, author, and a category icon.
- * This guarantees every book always has a matching, relevant cover image.
- */
-
-// --- Category themes: [bg gradient top, bg gradient bottom, accent, text color, icon] ---
 $category_themes = [
     'English Story Books' => [
         'top'    => '#1a1a2e',
