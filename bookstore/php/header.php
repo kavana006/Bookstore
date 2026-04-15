@@ -1,18 +1,4 @@
 <?php
-/**
- * header.php
- * Reusable header include for all pages.
- * - Starts the PHP session
- * - Outputs the <head> section with CSS links
- * - Renders the navigation bar with dynamic login/logout links
- *
- * USAGE: Include at the top of every page:
- *   include('php/header.php');
- *
- * Pass $page_title before including to set the <title> tag.
- * Pass $active_page to highlight the current nav link.
- */
-
 // Start session if not already started
 if (session_status() === PHP_SESSION_NONE) {
     session_start();
@@ -110,4 +96,4 @@ if (isset($_SESSION['cart']) && is_array($_SESSION['cart'])) {
         </ul>
     </div>
 </nav>
-<!-- ===== END NAVBAR ===== -->
+
