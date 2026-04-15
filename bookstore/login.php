@@ -1,15 +1,4 @@
 <?php
-/**
- * login.php — User Login Page
- *
- * Displays the login form.
- * The form POSTs to php/login_process.php which handles authentication.
- *
- * Session messages:
- * - $_SESSION['login_error'] : shown if login failed
- * - ?msg=login_required      : shown if user tried to add to cart without logging in
- */
-
 session_start();
 
 $page_title  = 'Login — BookVault';
