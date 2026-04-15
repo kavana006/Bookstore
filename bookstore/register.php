@@ -1,13 +1,4 @@
 <?php
-/**
- * register.php — User Registration Page
- *
- * Displays the registration form.
- * The form POSTs to php/register_process.php.
- *
- * Session messages:
- * - $_SESSION['register_errors'] : array of validation errors
- */
 
 session_start();
 
