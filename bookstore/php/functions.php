@@ -1,26 +1,4 @@
 <?php
-/**
- * functions.php
- * Helper functions used across the entire BookVault project.
- *
- * Functions:
- *   - load_books_from_xml()   : Reads books.xml and returns array of books
- *   - render_stars($rating)   : Converts a numeric rating to ★ star icons
- *   - get_cart_total()        : Calculates total price in session cart
- *   - is_in_cart($book_id)    : Checks if a book is already in the cart
- *   - format_price($price)    : Formats a float as "₹999"
- *   - get_fake_original($p)   : Returns a fake "was" price for display
- */
-
-// --- Load All Books from XML ---
-/**
- * Reads xml/books.xml and returns an array of associative arrays.
- * Each book has: id, title, author, price, category, rating, image, description
- *
- * @param string $category  Optional filter by category
- * @param string $search    Optional search term (title/author)
- * @return array            Array of book arrays
- */
 function load_books_from_xml($category = '', $search = '') {
     // Path to the XML file (relative to project root)
     $xml_path = __DIR__ . '/../xml/books.xml';
