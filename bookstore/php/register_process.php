@@ -1,18 +1,4 @@
 <?php
-/**
- * register_process.php
- * Handles the registration form POST submission.
- *
- * How it works:
- * 1. Validates all fields: name, email, password, confirm password.
- * 2. Checks that email isn't already registered.
- * 3. Hashes the password securely using PHP's password_hash().
- * 4. Appends the new user to php/users_data.php (file-based storage).
- * 5. Logs the user in immediately and redirects to home.
- *
- * NOTE: This uses a PHP file as a simple database (no MySQL needed).
- * In a production app, always use a proper database.
- */
 
 session_start();
 
