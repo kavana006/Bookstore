@@ -1,19 +1,4 @@
 <?php
-/**
- * login_process.php
- * Handles the login form POST submission.
- *
- * How it works:
- * 1. Validates that email + password are not empty.
- * 2. Reads users.php (our simple file-based user store) to find the user.
- * 3. Uses password_verify() to check the hashed password.
- * 4. On success: sets session variables and redirects to home or intended page.
- * 5. On failure: stores error in session and redirects back to login.php.
- *
- * NOTE: In a real app, you'd use a MySQL database.
- * For this project, users are stored in php/users_data.php as a PHP array.
- */
-
 session_start();
 
 // Only process POST requests
