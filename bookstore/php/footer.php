@@ -1,11 +1,4 @@
 <?php
-/**
- * footer.php
- * Reusable footer include for all pages.
- * Include at the bottom of every page:
- *   include('php/footer.php');
- */
-?>
 
 <!-- ===== FOOTER ===== -->
 <footer class="footer">
@@ -46,7 +39,7 @@
             <h4>Contact Us</h4>
             <ul>
                 <li><a href="#">📧 support@bookvault.com</a></li>
-                <li><a href="#">📞 1-800-BOOKS-99</a></li>
+                <li><a href="#">📞 9880770235</a></li>
                 <li><a href="#">📍 123 Library Lane, Booktown</a></li>
                 <li><a href="#">🕐 Mon–Fri 9AM–6PM</a></li>
             </ul>
