@@ -1,18 +1,4 @@
 <?php
-/**
- * cart.php — Shopping Cart Page
- *
- * Displays all items in the session cart ($_SESSION['cart']).
- *
- * Features:
- * - Shows each book with image, title, author, price, qty
- * - Increase / decrease quantity buttons (post to php/update_cart.php)
- * - Remove item button (post to php/remove_from_cart.php)
- * - Order summary sidebar with subtotal, shipping, total
- * - "Proceed to Checkout" button (demo only — no real payment)
- * - If cart is empty: shows a friendly empty state
- * - Login prompt if user is not logged in
- */
 
 session_start();
 require_once 'php/functions.php';
