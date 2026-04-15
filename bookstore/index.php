@@ -1,13 +1,4 @@
 <?php
-/**
- * index.php — BookVault Home Page
- *
- * This is the main landing page. It:
- * - Loads featured books from XML (first 8 books)
- * - Displays a hero banner with CTAs
- * - Shows category cards
- * - Displays a "Featured Books" grid section
- */
 
 // Start session & load helpers
 session_start();
@@ -150,7 +141,6 @@ $added_book = isset($_GET['added']) ? htmlspecialchars($_GET['added']) : '';
         </div>
     </div>
 
-    <!-- ===== PROMO BANNER ===== -->
     <div style="background: linear-gradient(135deg, #ff9900 0%, #e47911 100%); padding:40px 24px; text-align:center; color:#131921;">
         <h2 style="font-family:'Playfair Display',serif; font-size:1.8rem; margin-bottom:10px;">📦 Free Shipping on Orders Over ₹999</h2>
         <p style="font-size:1rem; opacity:0.85; margin-bottom:20px;">Use code <strong>BOOKS999</strong> at checkout</p>
