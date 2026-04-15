@@ -1,20 +1,12 @@
-/* ============================================================
-   style.css — BookVault Online Store
-   Main stylesheet for all pages.
-   Uses CSS variables for consistent theming throughout.
-   ============================================================ */
 
-/* --- Google Fonts Import --- */
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=DM+Sans:wght@300;400;500;600&display=swap');
-
-/* --- CSS Variables (Theme Colors) --- */
 :root {
-    --primary:       #131921;   /* Amazon-style dark nav */
-    --secondary:     #232f3e;   /* Slightly lighter dark */
-    --accent:        #ff9900;   /* Amazon orange */
+    --primary:       #131921;   
+    --secondary:     #232f3e;   
+    --accent:        #ff9900;  
     --accent-dark:   #e47911;
     --accent-light:  #fff3cd;
-    --bg:            #f3f3f3;   /* Page background */
+    --bg:            #f3f3f3;  
     --card-bg:       #ffffff;
     --text:          #111111;
     --text-muted:    #555555;
@@ -31,8 +23,6 @@
     --font-display:  'Playfair Display', serif;
     --transition:    all 0.22s ease;
 }
-
-/* --- Reset & Base --- */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 html { scroll-behavior: smooth; }
 body {
@@ -48,10 +38,6 @@ a { text-decoration: none; color: inherit; }
 ul { list-style: none; }
 img { max-width: 100%; display: block; }
 button { cursor: pointer; font-family: var(--font-body); border: none; }
-
-/* ============================================================
-   NAVBAR
-   ============================================================ */
 .navbar {
     background: var(--primary);
     color: #fff;
@@ -171,10 +157,6 @@ button { cursor: pointer; font-family: var(--font-body); border: none; }
     transition: var(--transition);
 }
 .navbar-categories a:hover { background: rgba(255,255,255,0.12); color: #fff; }
-
-/* ============================================================
-   HERO / BANNER
-   ============================================================ */
 .hero {
     background: linear-gradient(135deg, #131921 0%, #1a2744 50%, #232f3e 100%);
     color: #fff;
@@ -215,10 +197,6 @@ button { cursor: pointer; font-family: var(--font-body); border: none; }
     margin: 0 auto 32px;
 }
 .hero-actions { display: flex; gap: 14px; justify-content: center; flex-wrap: wrap; }
-
-/* ============================================================
-   BUTTONS
-   ============================================================ */
 .btn {
     display: inline-flex;
     align-items: center;
@@ -282,10 +260,6 @@ button { cursor: pointer; font-family: var(--font-body); border: none; }
     transform: translateY(-2px);
     box-shadow: 0 4px 14px rgba(255,153,0,0.3);
 }
-
-/* ============================================================
-   SECTIONS & CONTAINERS
-   ============================================================ */
 .container {
     max-width: 1400px;
     margin: 0 auto;
@@ -315,10 +289,6 @@ button { cursor: pointer; font-family: var(--font-body); border: none; }
     transition: var(--transition);
 }
 .section-link:hover { color: #e47911; text-decoration: underline; }
-
-/* ============================================================
-   BOOK CARDS GRID
-   ============================================================ */
 .books-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
@@ -412,10 +382,6 @@ button { cursor: pointer; font-family: var(--font-body); border: none; }
     font-weight: 400;
     margin-right: 6px;
 }
-
-/* ============================================================
-   STATS STRIP
-   ============================================================ */
 .stats-strip {
     background: var(--primary);
     color: #fff;
@@ -438,10 +404,6 @@ button { cursor: pointer; font-family: var(--font-body); border: none; }
     color: #aab;
     margin-top: 2px;
 }
-
-/* ============================================================
-   FORM PAGES (Login / Register)
-   ============================================================ */
 .auth-page {
     flex: 1;
     display: flex;
@@ -569,10 +531,6 @@ button { cursor: pointer; font-family: var(--font-body); border: none; }
 .alert-success { background: #e6f7f3; color: var(--green); border: 1px solid #b2dfdb; }
 .alert-info    { background: #e8f0fe; color: #1a56db; border: 1px solid #bfcfff; }
 .alert-warning { background: var(--accent-light); color: #856404; border: 1px solid #ffc107; }
-
-/* ============================================================
-   BOOKS LISTING PAGE
-   ============================================================ */
 .page-header {
     background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
     color: #fff;
@@ -632,10 +590,6 @@ button { cursor: pointer; font-family: var(--font-body); border: none; }
     font-weight: 700;
 }
 .results-count { margin-left: auto; font-size: 0.82rem; color: var(--text-light); }
-
-/* ============================================================
-   CART PAGE
-   ============================================================ */
 .cart-layout {
     display: grid;
     grid-template-columns: 1fr 340px;
@@ -723,8 +677,6 @@ button { cursor: pointer; font-family: var(--font-body); border: none; }
     padding: 0;
 }
 .cart-remove-btn:hover { color: #a93226; }
-
-/* Cart Sidebar / Summary */
 .cart-summary {
     background: #fff;
     border: 1px solid var(--border);
@@ -801,9 +753,6 @@ button { cursor: pointer; font-family: var(--font-body); border: none; }
 .empty-cart h2 { font-size: 1.4rem; margin-bottom: 10px; }
 .empty-cart p { color: var(--text-muted); margin-bottom: 24px; }
 
-/* ============================================================
-   FOOTER
-   ============================================================ */
 .footer {
     background: var(--primary);
     color: #ccc;
@@ -850,10 +799,6 @@ button { cursor: pointer; font-family: var(--font-body); border: none; }
     max-width: 1400px;
     margin: 0 auto;
 }
-
-/* ============================================================
-   FEATURED CATEGORIES STRIP
-   ============================================================ */
 .categories-strip {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -885,10 +830,6 @@ button { cursor: pointer; font-family: var(--font-body); border: none; }
 }
 .cat-icon { font-size: 2rem; margin-bottom: 8px; }
 .cat-name { font-size: 0.85rem; font-weight: 600; color: var(--text); }
-
-/* ============================================================
-   MISC UTILITIES
-   ============================================================ */
 .text-center { text-align: center; }
 .mt-1 { margin-top: 8px; }
 .mt-2 { margin-top: 16px; }
@@ -899,13 +840,7 @@ button { cursor: pointer; font-family: var(--font-body); border: none; }
 .text-accent { color: var(--accent); }
 .text-danger { color: var(--red); }
 .text-success { color: var(--green); }
-
-/* Page content wrapper */
 .main-content { flex: 1; }
-
-/* ============================================================
-   RESPONSIVE — Tablet & Mobile
-   ============================================================ */
 @media (max-width: 992px) {
     .cart-layout { grid-template-columns: 1fr; }
     .cart-summary { position: static; }
