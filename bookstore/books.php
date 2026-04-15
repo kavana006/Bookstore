@@ -1,15 +1,4 @@
 <?php
-/**
- * books.php — All Books Listing Page
- *
- * Displays all books loaded from xml/books.xml.
- * Supports:
- * - Category filtering via ?category=Fantasy
- * - Search via ?search=orwell (from the navbar search)
- * - Shows count of results
- * - "Add to Cart" button for each book
- */
-
 session_start();
 require_once 'php/functions.php';
 
